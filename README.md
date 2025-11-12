@@ -2,15 +2,32 @@
 
 A new Flutter project.
 
-## Getting Started
+# CM BOT 🤖
 
-This project is a starting point for a Flutter application.
+**CM BOT** is a Flutter-based AI chat application that uses the **Groq API** to provide intelligent, reasoning-based responses in real-time. It features a sleek splash screen, a clean chat interface, and is designed to be lightweight and responsive.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🌟 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Splash screen with **CM BOT** branding  
+- Real-time AI chat powered by **Groq API**  
+- Free-tier compatible for testing and development  
+- Easy to extend for advanced AI models and reasoning tasks  
+- Flutter-friendly and cross-platform (Android, iOS, Web)  
+
+---
+
+## 📦 Project Structure
+
+```
+lib/
+├── main.dart # App entry point
+├── screens/
+│ ├── splash_screen.dart # Splash screen
+│ └── chat_screen.dart # Chat UI
+├── services/
+│ └── groq_api.dart # Groq API integration
+└── utils/
+└── constants.dart # API key, model, endpoint
+```
